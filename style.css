@@ -1,0 +1,57 @@
+.home{
+  height: 100pc;
+  width: 100%;
+  background-image: url(img/pic1.png);
+  background-color: tomato;
+}
+.part1{
+width: 100%;
+height:10%;
+background-color:rgb(22, 19, 22);
+padding: 2%;
+}
+
+.part1 a{
+  margin: 2% 1%;
+  font-size: 1.7rem;
+}
+
+.part2{
+  width: 100%;
+  height:30%;
+  background-color:red;
+}
+.rangeslider{
+  width: 50%;
+}
+
+.myslider {
+  -webkit-appearance: none;
+  background: #FCF3CF  ;
+  width: 50%;
+  height: 20px;
+  opacity: 2;
+ }
+
+
+.myslider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  cursor: pointer;
+  background: #34495E  ;
+  width: 5%;
+  height: 20px;
+}
+
+
+.myslider:hover {
+  opacity: 1;
+}
+
+.blog-cards .card-2{
+  margin: 0 4%;
+}
+
+#testimonial-slider > .carousel-item > img, home-slider > .carousel-item > img{
+  height: 500px;
+  width: 100%;
+}
